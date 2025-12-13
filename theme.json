@@ -1,0 +1,99 @@
+{
+  "name": "TheLastCookie-theme",
+  "author": "TheLastCookie-404",
+  "manifest_version": 3,
+  "target": "Other",
+  "description": "This is a sample theme that turns the QAM black, red, blue or green. Also shows off patching capabilities",
+  "inject": {
+    "shared.css": ["bigpicture", "QuickAccess", "MainMenu"],
+    "round/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+  },
+  "patches": {
+    "Dropdown": {
+      "type": "dropdown",
+      "values": {
+        "None": {},
+        "Red": {
+          "red.css": ["QuickAccess"]
+        },
+        "Blue": {
+          "blue.css": ["QuickAccess"]
+        },
+        "Green": {
+          "green.css": ["QuickAccess"]
+        }
+      }
+    },
+    "Slider": {
+      "type": "slider",
+      "values": {
+        "None": {},
+        "Red": {
+          "red.css": ["QuickAccess"]
+        },
+        "Blue": {
+          "blue.css": ["QuickAccess"]
+        },
+        "Green": {
+          "green.css": ["QuickAccess"]
+        }
+      }
+    },
+    "Checkbox": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "red.css": ["QuickAccess"]
+        }
+      }
+    },
+
+    "Round": {
+      "type": "slider",
+      "values": {
+        "None": {},
+        "xs": {
+          "round/intensity/xs.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]
+        },
+        "sm": {
+          "round/intensity/sm.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]          
+        },
+        "md": {
+          "round/intensity/md.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]          
+        },
+        "lg": {
+          "round/intensity/lg.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]          
+        },
+        "xl": {
+          "round/intensity/xl.css": [
+            "SP",
+            "MainMenu",
+            "QuickAccess",
+            "notificationtoasts.*"
+          ]            
+        }
+      }
+    }
+  }
+}

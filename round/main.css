@@ -1,0 +1,116 @@
+._2-7fqz03LhYHKEBI-HwIPq,
+._3Ule3rolhZJiBN4yNNtk1s,
+._3PAP1PfUymQrLEveRsxQxP,
+._3bvCHoWj4rDdZr3mnKlXaf,
+.fXdhjvKWFQqnjxUzju3jk,
+._3OC7iN2ubQiHWLB7r6Bugz,
+._24_AuLm54JVe1Zc0AApCDR,
+._1R9r2OBCxAmtuUVrgBEUBw,
+._1fEbX-PfpZ2FhkhttWcm-V,
+._1ABm6sfuqiZZDSL9z8mW1a,
+._1gR1-BiiTRcYI1M3cDti-M,
+._1Lot-TP3cPLuTO6bGZm8up,
+._1fEbX-PfpZ2FhkhttWcm-V,
+._26QliGU0MSP6WN4r-RtI5q,
+._2KbRGpGqBtnyQLsPtbr5Xe,
+._39nnaT_CLE0m_WXVIrAwaG,
+.KLo2nZeTMZykCUGVlKsab,
+._1pwP4eeP1zQD7PEgmsep0W {
+  border-radius: var(--border-radius-size);
+  overflow: hidden;
+}
+
+.DialogButton,
+._21P7c4MWmsU2QSZeL-uyZo,
+.inviteAnotherFriendButton,
+.oneOnOneVoiceChatButton,
+._3IWn-2rn7x98o5fDd0rAxb {
+  border-radius: var(--border-radius-size) !important;
+  overflow: hidden;
+}
+
+.XLJ9pwrMeZWR39iu-bFoV,
+.QCKBqF2k_sRLcXJ5qQIEl {
+  border-radius: var(--border-radius-size) var(--border-radius-size) 0 0;
+  overflow: hidden;
+}
+
+._6TGe7-X6PrRRyqOPxNwRd,
+.NEMXhMlqXOCJwfgWlHXhT {
+  border-radius: 0 0 var(--border-radius-size) var(--border-radius-size);
+  overflow: hidden;
+}
+
+._3ctisZH6WXgLVlYQqADdfR {
+  :first-child {
+    border-radius: var(--border-radius-size) var(--border-radius-size) 0 0;
+  }
+
+  :last-child {
+    border-radius: 0 0 var(--border-radius-size) var(--border-radius-size);
+  }
+
+  overflow: hidden;
+}
+
+
+/* Border (todo: make border colors as separate color file options) */
+
+.gpfocus .basicpartnereventspage_BasicPartnerEvent_2yuwU {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: calc(var(--border-radius-size) + 2px);
+  margin: 54px auto 14px auto;
+}
+
+.focusring_FocusRing_1IZrQ {
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: calc(var(--border-radius-size) + 2px);
+  margin: -2px;
+  animation: focusring_growOutline_Z3LxS_alt 0.4s ease,
+    focusring_fadeOutline_2hZu3_alt 0.4s ease,
+    focusring_blinker_3wFMM_alt 1.2s ease-in-out 0.4s 20;
+}
+
+@keyframes focusring_growOutline_Z3LxS_alt {
+  0% {
+    border: 12px solid;
+    margin: -12px;
+    border-radius: calc(var(--border-radius-size) + 10px);
+  }
+
+  100% {
+    border: 2px solid;
+    margin: -2px;
+    border-radius: calc(var(--border-radius-size) + 2px);
+  }
+}
+
+@keyframes focusring_fadeOutline_2hZu3_alt {
+  0% {
+    border-color: rgba(255, 48, 48, 0);
+  }
+
+  100% {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@keyframes focusring_blinker_3wFMM_alt {
+  50% {
+    border: 2px solid rgba(255, 255, 255, 0.24);
+  }
+}
+
+/* exceptions */
+.appactivityday_NoCommentSupport_2CB_R>.appactivityday_EventBody_NEMXh>.Panel>.focusring_FocusRingRoot_3PH_X>.focusring_FocusRing_1IZrQ,
+.controllerconfiguratorchoosebinding_ChooseBindingContainer_1Kj9l>.gamepadtabbedpage_GamepadTabbedPage_3IBLc>.gamepadtabbedpage_TabContents_WDa0_>.overlappingtransition_TransitionGroup_11Twu>.overlappingtransition_ContentWrapper_1knAs>.Panel>.gamepadtabbedpage_TabContentsScroll_1X4dt>.focusring_FocusRingRoot_3PH_X>.focusring_FocusRing_1IZrQ {
+  border: none;
+  outline: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 0px;
+  margin: 0px;
+  animation: focusring_growOutline_Z3LxS 0.4s ease,
+    focusring_fadeOutline_2hZu3 0.4s ease,
+    focusring_blinker_3wFMM 1.2s ease-in-out 0.4s 20;
+}
