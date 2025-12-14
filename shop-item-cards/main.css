@@ -1,0 +1,24 @@
+/* Shop item card height */
+.fXdhjvKWFQqnjxUzju3jk {
+  height: calc(100% + 13px) !important;
+}
+
+/* Shop item card fix (bottom price bar) */
+._3-GyQfKnKaWozIRLOw4BjY {
+  height: 100% !important;
+}
+
+/* Inside padding (bottom price bar) */
+._2s-O5T3qJJYR2AUq4b9jIN {
+  padding: 6px 8px 6px 8px;
+}
+
+._1g0B-RjwkUV0_MDURgy3Bi {
+  justify-content: right;
+}
+
+
+/* Bigger gap between card rows */
+._2--N_0Jb34zE-aHkedJVON {
+  gap: 15px;
+}

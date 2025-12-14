@@ -6,7 +6,8 @@
   "description": "This is a sample theme that turns the QAM black, red, blue or green. Also shows off patching capabilities",
   "inject": {
     "shared.css": ["bigpicture", "QuickAccess", "MainMenu"],
-    "round/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+    "round/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"],
+    "shop-item-cards/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
   },
   "patches": {
     "Dropdown": {
