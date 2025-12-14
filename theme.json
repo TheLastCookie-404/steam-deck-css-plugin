@@ -1,5 +1,5 @@
 {
-  "name": "TheLastCookie-theme",
+  "name": "Cookie Theme",
   "author": "TheLastCookie-404",
   "manifest_version": 3,
   "target": "Other",
@@ -67,7 +67,7 @@
             "MainMenu",
             "QuickAccess",
             "notificationtoasts.*"
-          ]          
+          ]
         },
         "md": {
           "round/intensity/md.css": [
@@ -75,7 +75,7 @@
             "MainMenu",
             "QuickAccess",
             "notificationtoasts.*"
-          ]          
+          ]
         },
         "lg": {
           "round/intensity/lg.css": [
@@ -83,7 +83,7 @@
             "MainMenu",
             "QuickAccess",
             "notificationtoasts.*"
-          ]          
+          ]
         },
         "xl": {
           "round/intensity/xl.css": [
@@ -91,7 +91,7 @@
             "MainMenu",
             "QuickAccess",
             "notificationtoasts.*"
-          ]            
+          ]
         }
       }
     }
