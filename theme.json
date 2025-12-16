@@ -7,7 +7,8 @@
   "inject": {
     "shared.css": ["bigpicture", "QuickAccess", "MainMenu"],
     "round/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"],
-    "shop-item-cards/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"]
+    "shop-item-cards/main.css": ["SP", "MainMenu", "QuickAccess", "notificationtoasts.*"],
+    "tiles/main.css": ["SP"]
   },
   "patches": {
     "Dropdown": {
@@ -47,6 +48,16 @@
         "Yes": {
           "red.css": ["QuickAccess"]
         }
+      }
+    },
+
+    "TilesBorder": {
+      "type": "checkbox",
+      "values": {
+        "No": {
+          "tiles/hide-border/hide-border.css": ["SP"]
+        },
+        "Yes": {}
       }
     },
 
