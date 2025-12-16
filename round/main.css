@@ -2,6 +2,10 @@
   --border-radius-size: 0;
 }
 
+.IIJeieZ-ZPRfIULY7uSDG,
+.gh2rjM-vD2oIms-jfWeCA,
+.VytJzt3Z_t6332-n24Yrc,
+.UVeN0kaD3zv1feMj_mMw5,
 ._2-7fqz03LhYHKEBI-HwIPq,
 ._3Ule3rolhZJiBN4yNNtk1s,
 ._3PAP1PfUymQrLEveRsxQxP,
@@ -22,18 +26,29 @@
 .WYgDg9NyCcMIVuMyZ_NBC::after,
 ._3Ehhd5MxErV_bXQE4qVhzB,
 ._3VOR2AeYATx3qSE0I-Pm-5,
-._28UlEb2LlG5AHd2ifU3SX {
+._28UlEb2LlG5AHd2ifU3SX,
+.protondb-decky-indicator-container {
   border-radius: var(--border-radius-size);
   overflow: hidden;
 }
 
 .DialogButton,
+._3sfpA6uM8IJuAnrtDiJLZI,
+._3QS6OBHpvI5bXsSQA2zQuW,
+._1JlC29Ic6L-QvL-39X_d-X,
+._31ptFGGMZrSQc5BCX1e5lm,
+._3qDWQGB0rtwM3qpXTb11Q-,
+._1FnJ6dPuknQFQ2RTpKTI16,
 ._21P7c4MWmsU2QSZeL-uyZo,
 .inviteAnotherFriendButton,
 .oneOnOneVoiceChatButton,
 ._3IWn-2rn7x98o5fDd0rAxb {
   border-radius: var(--border-radius-size) !important;
   overflow: hidden;
+}
+
+.DY4_wSF8h9T5o46hO5I9V {
+  border-radius: var(--border-radius-size) !important;
 }
 
 .XLJ9pwrMeZWR39iu-bFoV,

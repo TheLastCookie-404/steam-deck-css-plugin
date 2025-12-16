@@ -12,3 +12,13 @@
   gap: 3px;
   margin-right: 5px;
 }
+
+/* Disable border for news cards (game menu) */
+._1AYE16384J_ecLpN0sEYc5 {
+  border: none;
+}
+
+/* Load more news button (game menu) */
+._39ZurKJQex6v69aXzvc_nj {
+  padding: 10px !important;
+}
