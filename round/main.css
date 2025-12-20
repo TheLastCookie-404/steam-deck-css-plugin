@@ -65,11 +65,11 @@
 }
 
 ._3ctisZH6WXgLVlYQqADdfR {
-  :first-child {
+  :not(.contextMenuGameOptions):first-child {
     border-radius: var(--border-radius-size) var(--border-radius-size) 0 0;
   }
 
-  :last-child {
+  :not(.contextMenuGameOptions):last-child {
     border-radius: 0 0 var(--border-radius-size) var(--border-radius-size);
   }
 
