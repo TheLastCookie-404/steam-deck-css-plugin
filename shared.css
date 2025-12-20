@@ -23,7 +23,6 @@
   padding: 10px !important;
 }
 
-
 /* Home searchbar active */
 ._3F4YRi5x8CjExTV0rOdSL- {
   opacity: 0.05;
@@ -31,4 +30,9 @@
 
 ._2Ya83QVfgqLema1GlOi9_C {
   color: #888888 !important;
+}
+
+/* Fix for home cards (top badge cutoff)  */
+.ReactVirtualized__Grid {
+  overflow: visible !important;
 }
