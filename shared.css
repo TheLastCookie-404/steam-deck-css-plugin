@@ -33,6 +33,6 @@
 }
 
 /* Fix for home cards (top badge cutoff)  */
-.ReactVirtualized__Grid {
-  overflow: visible !important;
+._3MdH5Czolhh5rC_nofUlcQ {
+  padding-top: 20px;
 }
