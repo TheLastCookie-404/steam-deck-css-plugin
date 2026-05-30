@@ -18,6 +18,22 @@
   justify-content: right;
 }
 
+/* Fixed width for text-box (bottom price bar) */
+._2E-mSsWtptcnk088TudSSj {
+  max-width: 196px !important;
+  overflow: hidden;
+}
+
+/* Font size for text (bottom price bar) */
+._3j4dI1yA7cRfCvK8h406OB {
+  font-size: 10px;
+  padding: 0 !important;
+}
+
+/* Padding for profile pics (bottom price bar) */
+._1IIKwlQaVZU6bIeEQJvmTK {
+  padding-left: 6px;
+}
 
 /* Bigger gap between card rows */
 ._2--N_0Jb34zE-aHkedJVON {

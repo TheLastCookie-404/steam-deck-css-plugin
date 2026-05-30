@@ -26,6 +26,7 @@
 /* Home searchbar active */
 ._3F4YRi5x8CjExTV0rOdSL- {
   opacity: 0.05;
+  color: white !important;
 }
 
 ._2Ya83QVfgqLema1GlOi9_C {
@@ -35,4 +36,14 @@
 /* Fix for home cards (top badge cutoff)  */
 ._3MdH5Czolhh5rC_nofUlcQ {
   padding-top: 20px;
+}
+
+/* Decky settings (plugins list fix) */
+.GxgIyq8R5xTOeu4ftGrgX {
+  margin-top: 6px;
+}
+
+._17M8gvakqjyaw_cLo6ntdl._1bmuJRkMBGcApfJwlj_k-F ._2a1-sPpExCp24Q8dfImB0a { 
+  color: #888888;
+  caret-color: #dcdedf;
 }

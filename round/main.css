@@ -33,6 +33,12 @@
   overflow: hidden;
 }
 
+.DialogInput,
+.DialogInputPlaceholder,
+.eKmEXJCm_lgme24Fp_HWt {
+  border-radius: var(--border-radius-size);
+}
+
 .DialogButton,
 ._3sfpA6uM8IJuAnrtDiJLZI,
 ._3QS6OBHpvI5bXsSQA2zQuW,
@@ -48,7 +54,8 @@
   overflow: hidden;
 }
 
-.DY4_wSF8h9T5o46hO5I9V {
+.DY4_wSF8h9T5o46hO5I9V,
+.protondb-decky-indicator {
   border-radius: var(--border-radius-size) !important;
 }
 
